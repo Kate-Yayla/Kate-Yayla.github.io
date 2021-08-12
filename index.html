@@ -1,54 +1,39 @@
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us"><head>
-    <meta charset="UTF-8">
-    <title>Activity 1: Basic HTML Bio</title>
-  </head>
-  
-  <body>
-    <h1>Kate Yayla</h1>
-    <h2>Data Analyst</h2>
-    <img src="https://cdn.thenewstack.io/media/2020/01/538304a3-engineer-4690505_1920-1024x683.jpg" style="width:500px;height:600px alt=" kate="" yayla"="">
-    <ul>
-      <li><strong>Email:</strong> <a href="#">kateyayla@aol.com</a></li>
-      <li><strong>Github:</strong> <a href="#">kate-yayla</a></li>
-      <li><strong>Linkedin:</strong> <a href="#">linkedin.com/in/kate-yayla-1084341a6</a></li>
-    </ul>
-  
-    <table>
-      <tbody><tr>
-        <th>Commucation Tools</th>
-        <th>Data Science Tools</th>
-        <th>Others</th>
-      </tr>
-  
-      <tr>
-        <td>SfB</td>
-        <td>Teams</td>
-        <td>Zoom</td>
-        <td>Slack</td>
-      </tr>
-  
-      <tr>
-        <td>Teams</td>
-        <td></td>
-        <td></td>
-      </tr>
-  
-      <tr>
-        <td>Zoom</td>
-        <td></td>
-        <td></td>
-      </tr>
-  
-      <tr>
-        <td>Slack</td>
-        <td></td>
-        <td></td>
-      </tr>
-      
-    </tbody></table>
-  
-  
-  
-  
-  
-  </body></html>
+  <meta charset="UTF-8">
+  <title>Kate Yayla Bio</title>
+
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Kate Yayla Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Kate Yayla</h2>
+        <img id="kateyayla" src="images/kateyayla.jpg" alt="Kate Yayla">
+      </section>
+      <p>Rutgers University 2021
+         Data Science Bootcamp
+         A 24-week intensive program focused on gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">kateyayla@aol.com</a></li>
+        <li><strong>Github:</strong> <a href="#">kate-yayla</a></li>
+        <li><strong>Linkedin:</strong> <a href="#">linkedin.com/in/kate-yayla-1084341a6</a></li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
+
